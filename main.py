@@ -8,4 +8,6 @@ csv files
 '''
 
 if __name__ == '__main__':
-    search_directory = functions.get_directory()
+    #search_directory = functions.get_directory()
+    a = 'abcdefg.xlsx'
+    print(type(a[:-5]))
