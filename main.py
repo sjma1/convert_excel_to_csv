@@ -8,4 +8,5 @@ csv files
 '''
 
 if __name__ == '__main__':
-    search_directory = functions.get_directory()
+    functions.search_directory(functions.get_directory())
+    print('COMPLETE')
